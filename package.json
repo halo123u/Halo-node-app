@@ -1,0 +1,28 @@
+{
+  "name": "halo-node-app",
+  "version": "1.0.0",
+  "description": "Web app using halo's public api",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon -e js,html,css,hbs .\\server\\server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halo123u/Halo-node-app.git"
+  },
+  "keywords": [
+    "halo",
+    "halo5",
+    "node"
+  ],
+  "author": "Oswaldo Almazo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halo123u/Halo-node-app/issues"
+  },
+  "homepage": "https://github.com/halo123u/Halo-node-app#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
